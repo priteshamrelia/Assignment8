@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width : 650px;
+    height: auto;
+    margin: auto;
+    
+}
+
+#employee_info  td, thead { 
+	width: 25%;
+	border: 2px solid #ddd;
+	font-family:  Helvetica, sans-serif, Arial;
+    text-align: left;
+
+}
+
+th, td {
+    padding: 5px;
+  }
+#employee_info {
+	width: 100%;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+#employee_info tr:nth-child(even) {
+	background: #E8EFF7;
+}
+
+button{
+    margin-top: 10px;
+}
+.formlabel{
+    font-weight: bold;
+}
+.error{
+    color: red;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+thead {
+	background-color: steelblue;
+    color: white;
+    font-weight: bold;
+}
+#page_title{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.add_button, .del_btn{
+    background-color: #4f9cda;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 2px;
+}
